@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 cargo-edit = "0.10.4"
-colour = "0.6.0"
+crossterm = "0.23.0"
 dotenv = "0.15.0"
 newsapi = {path = "./newsapi"}
-thiserror = "1.0.35"
+termimad = "0.20.2"

@@ -9,7 +9,7 @@ fn render_articles(articles: &Articles) {
     theme.print_text("# Top headlines\n\n");
     for i in &articles.articles {
         theme.print_text(&format!("`{}`", i.title));
-        theme.print_text(&format!("*{}*", i.url));
+        theme.print_text(&format!("> *{}*", i.url));
         theme.print_text("---")
     }
 }
